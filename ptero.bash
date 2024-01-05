@@ -1,6 +1,6 @@
 #Preconfig
-URL=https://pterodactyl-oviedocraft.stableup.es
-DOMAIN=pterodactyl-oviedocraft.stableup.es
+URL=
+DOMAIN=
 TIMEZONE=Europe/Madrid
 
 #Dependencias
@@ -63,9 +63,9 @@ composer install --no-dev --optimize-autoloader
   php artisan p:user:make \
     --email="pablo@stableup.es" \
     --username="root" \
-    --name-first="Pablo" \
-    --name-last="Plaza" \
-    --password="CodigoLyoko-99" \
+    --name-first="Admin" \
+    --name-last="Admin" \
+    --password="changeme" \
     --admin=1
 
 #Dar Permisos a NGINX
@@ -120,7 +120,7 @@ echo 'server_tokens off;
 
 server {
     listen 80;
-    server_name pterodactyl-oviedocraft.stableup.es;
+    server_name "REPLACE THIS";
     return 301 https://$server_name$request_uri;
 }
 
