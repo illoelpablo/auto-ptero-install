@@ -2,5 +2,7 @@ An auto-install Bash on Debian11 to install Ptero Dashboard. Is built with an ol
 Works on LXC
 
 ---------------
-Change the URL and Domain variable before EXECUTE
+Change the URL, Domain variable and "REPLACE THIS" on Nginx Configuration before EXECUTE
 ---------------
+
+Default user and password root:changeme
