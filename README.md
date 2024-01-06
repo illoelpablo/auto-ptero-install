@@ -1,4 +1,4 @@
-An auto-install Bash on Debian11 to install Ptero Dashboard. Is built with an old SSL of my domain, so the URL will appear in insecure. 
+An auto-install Bash on Debian11 to install Ptero Dashboard. Is built with an old SSL of my domain, so the URL will appear as insecure. 
 Works on LXC
 
 ---------------
